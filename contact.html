@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>MI 349 Blog</title>
   </head>
   <body>
@@ -23,11 +24,11 @@
       <form>
         <label
           >Name
-          <input type="text" />
+          <input class="text-input" type="text" />
         </label>
         <label
           >Email
-          <input type="text" />
+          <input class="text-input" type="text" />
         </label>
         <label>Reason for contact </label>
         <select>
@@ -39,9 +40,14 @@
         <label
           >Message
           <br />
-          <textarea cols="60" rows="5" name="message"></textarea>
+          <textarea
+            class="text-input"
+            cols="60"
+            rows="5"
+            name="message"
+          ></textarea>
         </label>
-        <button>Submit</button>
+        <button class="submit">Submit</button>
       </form>
     </section>
   </body>

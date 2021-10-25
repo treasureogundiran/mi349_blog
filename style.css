@@ -1,0 +1,61 @@
+html {
+  background: rgb(0, 214, 0);
+}
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 40px;
+  padding: 40px;
+  color: rgb(7, 7, 7);
+  border: 10px solid green;
+  background-color: white;
+}
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+  width: 800px;
+}
+
+#blog {
+  border-top: 2px solid rgb(7, 7, 7);
+}
+
+.blog-post {
+  border-bottom: 2px solid rgb(7, 7, 7);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  text-align: left;
+  border: solid 2px rgb(7, 7, 7);
+}
+
+.text-input {
+  border: solid 1.5px rgb(7, 7, 7);
+  border-radius: 4px;
+}
+
+.submit {
+  color: rgb(0, 214, 0);
+  background: white;
+  border: solid 2px rgb(0, 214, 0);
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+a[href="./about.html"],
+a[href="./index.html"],
+a[href="./contact.html"] {
+  color: rgb(0, 212, 0);
+}
