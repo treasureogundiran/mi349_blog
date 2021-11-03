@@ -18,6 +18,42 @@ p {
   line-height: 1.5em;
   width: 800px;
 }
+nav {
+  position: sticky;
+  top: 0;
+  background: green;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  font-size: 22px;
+  list-style: none;
+}
+
+a[href="./about.html"],
+a[href="./index.html"],
+a[href="./contact.html"] {
+  color: white;
+}
+
+time {
+  display: block;
+}
+
+.image-div {
+  float: left;
+  margin-right: 5px;
+  width: 200px;
+}
+
+.image-div img {
+  width: 100%;
+}
 
 #blog {
   border-top: 2px solid rgb(7, 7, 7);
@@ -40,6 +76,7 @@ td {
 .text-input {
   border: solid 1.5px rgb(7, 7, 7);
   border-radius: 4px;
+  margin-right: 10px;
 }
 
 .submit {
@@ -54,8 +91,6 @@ label {
   margin-bottom: 5px;
 }
 
-a[href="./about.html"],
-a[href="./index.html"],
-a[href="./contact.html"] {
-  color: rgb(0, 212, 0);
+.name-email {
+  display: flex;
 }
