@@ -16,7 +16,7 @@ h1 {
 
 p {
   line-height: 1.5em;
-  width: 800px;
+  width: 100%;
 }
 nav {
   position: sticky;
@@ -93,4 +93,19 @@ label {
 
 .name-email {
   display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 75%;
+  }
+  a {
+    font-size: 65%;
+  }
+  .name-email {
+    flex-direction: column;
+  }
+  textarea {
+    width: 100%;
+  }
 }
